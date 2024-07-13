@@ -82,7 +82,7 @@ function App() {
           <h1>Projetos</h1>
 
           <div className='projetos-boxes'>
-            <a href='' target='_blank' className='projetos-box'>
+            <a href='https://encurtador-url-pi.vercel.app/' target='_blank' className='projetos-box'>
             <div className='s1'>
               <h3>Interface do encurtador</h3>
               <p>Parte frontend do projeto de encurtador de urls. Feito com React.js</p>
