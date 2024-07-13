@@ -26,7 +26,7 @@ function App() {
 
         <div className='perfil'>
           <div className='perfil-foto'>
-            <img src={"public/pfp.jpeg"}/>
+            <img src={"https://cdn.discordapp.com/attachments/1066591878050500679/1261489386474700910/pfp.jpeg?ex=6693250b&is=6691d38b&hm=debc180c9ef191ce3ae2e1a94a195bac243dc9eb08f6bb3f103db0901ba4be8b&"}/>
           </div>
           <div className='perfil-texto'>
             
@@ -93,7 +93,7 @@ function App() {
                 </div>
             </div>
             <div className='s3'>
-              <img src="public/p1.png"/>
+              <img src="https://cdn.discordapp.com/attachments/1066591878050500679/1261489298662887464/image.png?ex=669324f6&is=6691d376&hm=6efda196201690c827a4fa402746d1c92c84b89818a6ec1aada30bd2ce28496e&"/>
 
             </div>
 
@@ -111,7 +111,7 @@ function App() {
                 </div>
             </div>
             <div className='s3'>
-              <img src="public/p2.png"/>
+              <img src="https://media.discordapp.net/attachments/1055628442957254909/1261456932300918935/1lAMsvtB6afHwTQYCNM1xvw.png?ex=669306d1&is=6691b551&hm=20467ab75fc5326c542344c94a39b6ae2c6b7276e8a47b16a5f2f8790f39e303&=&format=webp&quality=lossless&width=722&height=498"/>
 
             </div>
             </a>
@@ -126,7 +126,7 @@ function App() {
               </div>
             </div>
             <div className='s3'>
-              <img src="public/p3.png"/>
+              <img src="https://media.discordapp.net/attachments/1066591878050500679/1261489339397832754/image.png?ex=669324ff&is=6691d37f&hm=c4dd82ee3fe151237f103b0006ed798680953018d6ab37b46e7afaee55e82847&=&format=webp&quality=lossless&width=1025&height=390"/>
 
             </div>
             </a>
@@ -143,7 +143,7 @@ function App() {
               </div>
             </div>
             <div className='s3'>
-              <img src="public/p4.png"/>
+              <img src="https://media.discordapp.net/attachments/1066591878050500679/1261468378703331438/image.png?ex=6693117a&is=6691bffa&hm=d88b5d09bd2cc6ee836de2dfc6e34c88eb8d5da96ad0f5dc7b9fa229ed8605f8&=&format=webp&quality=lossless&width=550&height=270"/>
 
             </div>
             </a>
@@ -160,7 +160,7 @@ function App() {
               </div>
             </div>
             <div className='s3'>
-              <img src="public/p5.png"/>
+              <img src="https://cdn.discordapp.com/attachments/1066591878050500679/1261469775083868170/image.png?ex=669312c7&is=6691c147&hm=996cc6d886e76d15fd3dc64f8e68f90e3bcce19ab699808b1d49cc2a038de3c5&"/>
             </div>
             </a>
             </div>
