@@ -5,16 +5,23 @@ import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt, FaGithub } from "react-icons/fa";
 import Decorador from './components/Decorador/Decorador';
 import BoxProjeto from './components/BoxProjeto/BoxProjeto';
-
+import { RiNextjsFill  } from "react-icons/ri";
 
 function App() {
-  const projetos = [
+  let projetos = [
     {
-      projectLink: "https://encurtador-url-pi.vercel.app/",
-      title: "Interface do encurtador",
-      description:"Parte frontend do projeto de encurtador de urls. Feito com React.js",
-      imgSrc: "p1.png",
-      icon: <DiReact size={45}/>,
+      projectLink: "https://alphachief13.github.io/projects-js-vanilla/",
+      title: "Projetos Vanilla",
+      description:"Um site que mostra os meus primeiros projetos com javascript puro.",
+      imgSrc: "p5.png",
+      icon: <div><DiHtml5 size={45}/><DiCss3 size={45}/><DiJavascript1 size={45}/></div>,
+    }, 
+    {
+      projectLink: "https://alphachief13.github.io/lockedPP/",
+      title: "Locked ++",
+      description:"Um jogo de adivinhar a combinação. Foi feito puramente em html, css e javascript.",
+      imgSrc: "p4.png",
+      icon: <div><DiHtml5 size={45}/><DiCss3 size={45}/><DiJavascript1 size={45}/></div>,
     },
     {
       projectLink: "https://github.com/alphachief13/api-encurta-url",
@@ -24,20 +31,24 @@ function App() {
       icon: <div><DiDjango size={45}/><DiPostgresql  size={45}/></div>,
     },
     {
-      projectLink: "https://alphachief13.github.io/lockedPP/",
-      title: "Locked ++",
-      description:"Um jogo de adivinhar a combinação. Foi feito puramente em html, css e javascript.",
-      imgSrc: "p4.png",
-      icon: <div><DiHtml5 size={45}/><DiCss3 size={45}/><DiJavascript1 size={45}/></div>,
+      projectLink: "https://encurtador-url-pi.vercel.app/",
+      title: "Interface do encurtador",
+      description:"Parte frontend do projeto de encurtador de urls. Feito com React.js",
+      imgSrc: "p1.png",
+      icon: <DiReact size={45}/>,
     },
+   
     {
-      projectLink: "https://alphachief13.github.io/projects-js-vanilla/",
-      title: "Projetos Vanilla",
-      description:"Um site que mostra os meus primeiros projetos com javascript puro.",
-      imgSrc: "p5.png",
-      icon: <div><DiHtml5 size={45}/><DiCss3 size={45}/><DiJavascript1 size={45}/></div>,
+      projectLink: "https://guilherme-cordeiro-autor.vercel.app/",
+      title: "Site de autor",
+      description:"Um projeto frontend construído em Next.js para um autor de livros",
+      imgSrc: "p6.png",
+      icon: <div><RiNextjsFill  size={45}/></div>,
     },
+
   ]
+
+  projetos = projetos.reverse();
 
   return (
     <div>   
