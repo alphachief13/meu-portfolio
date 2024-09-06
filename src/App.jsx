@@ -33,7 +33,7 @@ function App() {
     {
       projectLink: "https://encurtador-url-pi.vercel.app/",
       title: "Interface do encurtador",
-      description:"Parte frontend do projeto de encurtador de urls. Feito com React.js",
+      description:"Parte frontend do projeto de encurtador de urls. Feito com React.js (apenas interface)",
       imgSrc: "p1.png",
       icon: <DiReact size={45}/>,
     },
@@ -44,6 +44,13 @@ function App() {
       description:"Um projeto frontend construído em Next.js para um autor de livros",
       imgSrc: "p6.png",
       icon: <div><RiNextjsFill  size={45}/></div>,
+    },
+    {
+      projectLink: "https://alphachief13.github.io/app-clima/",
+      title: "Interface app de clima",
+      description:"Fornece uma interface para o consumo de uma api de clima (weatherApi)",
+      imgSrc: "p7.png",
+      icon: <div><DiHtml5 size={45}/><DiCss3 size={45}/><DiJavascript1 size={45}/></div>,
     },
 
   ]
