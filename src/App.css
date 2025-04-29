@@ -500,10 +500,9 @@ body{
     .perfil {
         display: flex;
         justify-content: center;
-        align-items: center;
         gap: 15px;
         margin-top: 5vh;
-        margin-bottom: 8vh;
+        margin-bottom: 5vh;
     }
     
     .perfil-foto img {
@@ -518,10 +517,10 @@ body{
         gap: 1vh;
         flex-direction: column;
         font-size: 10px;
+        width: 60%;
     }
     
     .perfil-texto h1{
-        margin-bottom: 2vh;
         font-size: 15px;
     }
     
@@ -535,7 +534,6 @@ body{
         align-items: center;
         font-weight: 300;
         font-size: 11px;
-        margin-bottom: 2vh;
         font-family: "Lexend", sans-serif;
     }
     

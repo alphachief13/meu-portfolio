@@ -10,13 +10,6 @@ import { RiNextjsFill  } from "react-icons/ri";
 function App() {
   let projetos = [
     {
-      projectLink: "https://alphachief13.github.io/projects-js-vanilla/",
-      title: "Projetos Vanilla",
-      description:"Um site que mostra os meus primeiros projetos com javascript puro.",
-      imgSrc: "p5.png",
-      icon: <div><DiHtml5 size={45}/><DiCss3 size={45}/><DiJavascript1 size={45}/></div>,
-    }, 
-    {
       projectLink: "https://alphachief13.github.io/lockedPP/",
       title: "Locked ++",
       description:"Um jogo de adivinhar a combinação. Foi feito puramente em html, css e javascript.",
@@ -46,12 +39,28 @@ function App() {
       icon: <div><RiNextjsFill  size={45}/></div>,
     },
     {
-      projectLink: "https://alphachief13.github.io/app-clima/",
-      title: "Interface app de clima",
-      description:"Fornece uma interface para o consumo de uma api de clima (weatherApi)",
-      imgSrc: "p7.png",
-      icon: <div><DiHtml5 size={45}/><DiCss3 size={45}/><DiJavascript1 size={45}/></div>,
+      projectLink: "https://sunventor.com",
+      title: "Sunventor",
+      description:"Landing Page para um painel solar da empresa sunventor",
+      imgSrc: "p8.png",
+      icon: <div><RiNextjsFill  size={45}/></div>,
     },
+    {
+      projectLink: "https://goc-test-b9wm.vercel.app/",
+      title: "Gestão de Ocorrências de Contratos",
+      description:"Frontend para o sistema de gestão de ocorrência de contratos",
+      imgSrc: "p9.png",
+      icon: <div><RiNextjsFill  size={45}/></div>,
+    },
+    {
+      projectLink: "https://kratos-frontend.vercel.app/login",
+      title: "Gestor de Chamados - Kratos UFRN",
+      description:"Frontend para o sistema de gestão de chamados da UFRN",
+      imgSrc: "p10.png",
+      icon: <div><RiNextjsFill  size={45}/></div>,
+    },
+
+    
 
   ]
 
